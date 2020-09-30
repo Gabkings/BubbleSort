@@ -39,3 +39,8 @@ def bubble_sort_by(sorted_array)
     end
     puts sorted_array
   end
+
+
+  bubble_sort_by(%w[hi hello hey hi]) do |left, right|
+    left.length - right.length
+  end
