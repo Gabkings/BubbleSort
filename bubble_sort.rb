@@ -15,9 +15,13 @@ def bubble_sort(array_to_sort)
                 array_to_sort[i], array_to_sort[i+1] = array_to_sort[i+1], array_to_sort[i]
                 swapped = true
             end
+        end
 
-            break if not swapped
+        break if not swapped
+            
     end
-    return array_to_sort
+    puts array_to_sort
 end
 
+unsorted_array = [11,5,7,6,15]
+bubble_sort(unsorted_array)
