@@ -42,4 +42,3 @@ unsorted_array = [11, 5, 7, 6, 15]
 bubble_sort(unsorted_array)
 
 # rubocop: enable all
-
