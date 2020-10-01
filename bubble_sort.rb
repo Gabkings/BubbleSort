@@ -28,7 +28,7 @@ def bubble_sort_by(array)
       check = true
     end
   end
-  sorted_array
+  array
 end
 
 bubble_sort_by(%w[hi hello hey hi]) do |left, right|
