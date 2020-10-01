@@ -17,14 +17,14 @@ def bubble_sort(array)
   array
 end
 
-def bubble_sort_by(sorted_array)
+def bubble_sort_by(array)
   check = true
   while check
     check = false
-    (0...sorted_array.length - 1).each do |i|
-      next unless yield(sorted_array[i], sorted_array[i + 1]).positive?
+    (0...array.length - 1).each do |i|
+      next unless yield(array[i], array[i + 1]).positive?
 
-      sorted_array[i], sorted_array[i + 1] = sorted_array[i + 1], sorted_array[i]
+      array[i], array[i + 1] = array[i + 1], array[i]
       check = true
     end
   end
