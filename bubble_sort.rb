@@ -1,4 +1,6 @@
-# bubble sort
+# rubocop: disable Metrics/MethodLength
+# frozen_string_literal: true
+
 def bubble_sort(array)
   array_length = array.size
   array if array_length <= 1
@@ -35,3 +37,5 @@ end
 
 unsorted_array = [11, 5, 7, 6, 15]
 p bubble_sort(unsorted_array)
+
+# rubocop: enable Metrics/MethodLength
