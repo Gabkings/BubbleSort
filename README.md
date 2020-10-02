@@ -13,6 +13,9 @@ A method was created to accept an array of items in which each element is compar
 * RUBY
 * VSCode
 
+## Complexity of Bubble sort
+Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted.
+
 ## Authors
 
 👤 **Gabriel Gitonga**
